@@ -1,53 +1,45 @@
 # 🚀 100 Days of Machine Learning
 
-### A hands-on journey from data analysis to building practical Machine Learning systems.
+### A practical journey from data analysis and preprocessing to Machine Learning and real-world projects.
 
-Welcome to my **Machine Learning practice repository**.
+Welcome to my **100 Days of Machine Learning** repository.
 
-This repository documents my journey of learning, implementing, experimenting with, and applying Machine Learning concepts using Python and the Scikit-learn ecosystem.
+This repository documents my progress in learning and implementing Machine Learning concepts using **Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn**.
 
-Rather than simply collecting code, my focus is on understanding **why each technique is used, how it works, how to implement it, and how to evaluate its results**.
+It includes hands-on notebooks, experiments, data preprocessing techniques, Machine Learning algorithms, and projects developed throughout my learning journey.
 
 ---
 
-## 🎯 What I'm Building
+## 🎯 Objective
 
-The long-term goal of this repository is to build a strong foundation in Machine Learning and gradually move from:
+The objective of this repository is to build a strong foundation in Machine Learning through consistent practice and gradually progress toward developing **end-to-end Machine Learning solutions**.
 
-```text
-Python & Data
-      ↓
-Data Analysis
-      ↓
-Exploratory Data Analysis
-      ↓
-Data Preprocessing
-      ↓
-Feature Engineering
-      ↓
-Machine Learning Algorithms
-      ↓
-Model Evaluation
-      ↓
-Advanced Machine Learning
-      ↓
-Real-World Projects
-      ↓
-ML Deployment
-```
+The journey covers:
 
-# 🗺️ Learning Map
+* Data Analysis
+* Exploratory Data Analysis
+* Data Preprocessing
+* Feature Engineering
+* Machine Learning Algorithms
+* Model Evaluation
+* Model Optimization
+* Unsupervised Learning
+* End-to-End Machine Learning Projects
 
-## Phase 01 — Data Analysis
+---
 
-Understanding and working with real-world data.
+# 🗺️ Learning Roadmap
 
-* CSV Files
+## Phase 01 — Data Analysis & Exploratory Data Analysis
+
+Understanding datasets and extracting useful information from data.
+
+* Working with CSV Files
 * JSON
 * SQL
 * APIs
 * Web Scraping
-* Pandas
+* Pandas DataFrames
 * Descriptive Statistics
 * Univariate Analysis
 * Bivariate Analysis
@@ -57,7 +49,7 @@ Understanding and working with real-world data.
 
 ## Phase 02 — Data Preprocessing
 
-Learning how to transform raw data into useful machine-learning features.
+Preparing raw data for Machine Learning models.
 
 * Standardization
 * Normalization
@@ -70,12 +62,12 @@ Learning how to transform raw data into useful machine-learning features.
 * Binning & Binarization
 * Mixed Variables
 * Date & Time Features
-* Missing Value Analysis
+* Complete Case Analysis
 * Numerical Imputation
 * Categorical Imputation
 * Missing Indicators
-* KNN Imputation
-* Iterative Imputation
+* KNN Imputer
+* Iterative Imputer
 * Outlier Detection
 * Feature Construction
 * Feature Selection
@@ -85,12 +77,13 @@ Learning how to transform raw data into useful machine-learning features.
 
 ## Phase 03 — Regression
 
-Learning how machines predict continuous numerical values.
+Learning algorithms used for predicting continuous values.
 
 * Simple Linear Regression
 * Multiple Linear Regression
 * Regression Metrics
 * Gradient Descent
+* Types of Gradient Descent
 * Polynomial Regression
 * Regularization
 * Lasso Regression
@@ -100,13 +93,13 @@ Learning how machines predict continuous numerical values.
 
 ## Phase 04 — Classification
 
-Learning how machines make decisions between classes.
+Learning algorithms used for predicting categorical outcomes.
 
 * Logistic Regression
+* Classification Metrics
 * K-Nearest Neighbors
 * Decision Trees
 * Support Vector Machines
-* Classification Metrics
 * Confusion Matrix
 * Precision
 * Recall
@@ -117,7 +110,7 @@ Learning how machines make decisions between classes.
 
 ## Phase 05 — Ensemble Learning
 
-Combining multiple models to improve prediction performance.
+Exploring methods that combine multiple models to improve predictions.
 
 * Random Forest
 * AdaBoost
@@ -129,7 +122,7 @@ Combining multiple models to improve prediction performance.
 
 ## Phase 06 — Unsupervised Learning
 
-Learning how to discover patterns without labelled data.
+Learning how to identify patterns and structures in data without labelled outcomes.
 
 * Clustering
 * K-Means
@@ -141,33 +134,68 @@ Learning how to discover patterns without labelled data.
 
 ## Phase 07 — Model Improvement
 
-Moving from basic models toward more reliable ML systems.
+Developing more reliable and optimized Machine Learning models.
 
-* Train/Test Split
+* Train-Test Split
 * Cross-Validation
 * Hyperparameter Tuning
 * Grid Search
 * Randomized Search
-* Model Comparison
 * Feature Selection
+* Model Comparison
 * Performance Analysis
 
 ---
 
-## Phase 08 — Real-World Projects
+## Phase 08 — Machine Learning Projects
 
-Applying the concepts learned throughout the journey to practical Machine Learning problems.
+Applying the concepts learned throughout the journey to practical problems.
 
-Future projects will focus on:
+Planned project workflow:
 
-* Data Collection
-* Data Cleaning
-* Exploratory Data Analysis
-* Feature Engineering
-* Model Building
-* Model Evaluation
-* Experimentation
-* Deployment
+```text
+Problem Definition
+       ↓
+Data Collection
+       ↓
+Data Cleaning
+       ↓
+Exploratory Data Analysis
+       ↓
+Feature Engineering
+       ↓
+Model Development
+       ↓
+Model Evaluation
+       ↓
+Model Optimization
+       ↓
+Deployment
+```
+
+---
+
+# 📊 Current Progress
+
+My current progress is through **KNN Imputer**.
+
+| Area                   | Status                          |
+| ---------------------- | ------------------------------- |
+| Data Analysis & EDA    | ✅ Completed                     |
+| Data Preprocessing     | 🔄 In Progress                  |
+| Missing Value Handling | ✅ Completed through KNN Imputer |
+| Iterative Imputer      | ⏳ Next                          |
+| Outlier Detection      | ⏳ Upcoming                      |
+| Feature Engineering    | ⏳ Upcoming                      |
+| Regression             | ⏳ Upcoming                      |
+| Classification         | ⏳ Upcoming                      |
+| Ensemble Learning      | ⏳ Upcoming                      |
+| Unsupervised Learning  | ⏳ Upcoming                      |
+| Model Optimization     | ⏳ Upcoming                      |
+| End-to-End Projects    | ⏳ Upcoming                      |
+| Deployment             | ⏳ Upcoming                      |
+
+> Progress will be updated as new concepts and projects are completed.
 
 ---
 
@@ -177,10 +205,30 @@ Future projects will focus on:
 100-days-of-machine-learning/
 │
 ├── notebooks/
-│   ├── day01/
-│   ├── day02/
-│   ├── day03/
-│   └── ...
+│   ├── day15-working-with-csv/
+│   ├── day16-json-and-sql/
+│   ├── day17-api-to-dataframe/
+│   ├── day18-web-scraping/
+│   ├── day19-descriptive-statistics/
+│   ├── day20-univariate-analysis/
+│   ├── day21-bivariate-analysis/
+│   ├── day22-pandas-profiling/
+│   ├── day24-standardization/
+│   ├── day25-normalization/
+│   ├── day26-ordinal-encoding/
+│   ├── day27-one-hot-encoding/
+│   ├── day28-column-transformer/
+│   ├── day29-sklearn-pipelines/
+│   ├── day30-function-transformer/
+│   ├── day31-power-transformer/
+│   ├── day32-binning-and-binarization/
+│   ├── day33-mixed-variables/
+│   ├── day34-date-and-time/
+│   ├── day35-complete-case-analysis/
+│   ├── day36-numerical-imputation/
+│   ├── day37-categorical-imputation/
+│   ├── day38-missing-indicator/
+│   └── day39-knn-imputer/
 │
 ├── projects/
 │
@@ -193,84 +241,48 @@ Future projects will focus on:
 └── .gitignore
 ```
 
-### `notebooks/`
-
-Daily Machine Learning learning and experimentation.
-
-### `projects/`
-
-Larger projects where multiple concepts are combined into an end-to-end solution.
-
-### `datasets/`
-
-Small datasets used for practice when appropriate. Large datasets will be referenced through their original sources instead of unnecessarily storing them in the repository.
-
-### `cheatsheets/`
-
-Short revision notes, useful formulas, concepts, and ML references.
+> The repository structure will evolve as the learning journey progresses.
 
 ---
 
-# 📊 Learning Progress
+# 🧪 Notebook Approach
 
-| Area                      | Progress    |
-| ------------------------- | ----------- |
-| Python for ML             | 🔄 Learning |
-| NumPy & Pandas            | 🔄 Learning |
-| Data Visualization        | 🔄 Learning |
-| Exploratory Data Analysis | 🔄 Learning |
-| Data Preprocessing        | 🔄 Learning |
-| Feature Engineering       | 🔄 Learning |
-| Regression                | ⏳ Upcoming  |
-| Classification            | ⏳ Upcoming  |
-| Ensemble Learning         | ⏳ Upcoming  |
-| Unsupervised Learning     | ⏳ Upcoming  |
-| Model Optimization        | ⏳ Upcoming  |
-| End-to-End Projects       | ⏳ Upcoming  |
-| Deployment                | ⏳ Upcoming  |
+Each notebook focuses on a specific Machine Learning concept or technique.
 
-> Progress is updated as I learn and implement each topic.
-
----
-
-# 🧠 My Learning Approach
-
-Each topic is approached through a simple cycle:
+A typical notebook may include:
 
 ```text
-Learn
-  ↓
-Understand
-  ↓
-Implement
-  ↓
-Experiment
-  ↓
-Analyze
-  ↓
-Debug
-  ↓
-Document
+Concept
+   ↓
+Dataset
+   ↓
+Data Exploration
+   ↓
+Implementation
+   ↓
+Experimentation
+   ↓
+Results
+   ↓
+Conclusion
 ```
 
-The purpose of this repository is not to show how many notebooks I can complete.
-
-The purpose is to demonstrate **consistent learning, practical implementation, experimentation, and problem-solving**.
+This keeps the notebooks organized and makes them useful for future revision.
 
 ---
 
 # 🛠️ Technology Stack
 
-### Programming
+### Programming Language
 
 * Python
 
-### Data Science
+### Data Analysis
 
 * NumPy
 * Pandas
 
-### Visualization
+### Data Visualization
 
 * Matplotlib
 * Seaborn
@@ -279,7 +291,7 @@ The purpose is to demonstrate **consistent learning, practical implementation, e
 
 * Scikit-learn
 
-### Development Environment
+### Development Tools
 
 * Jupyter Notebook
 * VS Code
@@ -291,84 +303,65 @@ The purpose is to demonstrate **consistent learning, practical implementation, e
 
 ---
 
-# 📈 What I Track
+# 📈 Skills Being Developed
 
-For important Machine Learning experiments, I aim to understand:
+Through this journey, I am developing practical skills in:
 
-* Dataset characteristics
-* Missing values
-* Feature distributions
-* Data preprocessing decisions
-* Model assumptions
-* Training performance
-* Validation performance
-* Evaluation metrics
-* Model limitations
-* What can be improved
-
----
-
-# 🧪 From Practice to Projects
-
-The ultimate goal is to move beyond isolated notebooks.
-
-I want to gradually transform individual concepts into complete ML workflows:
-
-```text
-Raw Data
-   ↓
-Data Understanding
-   ↓
-EDA
-   ↓
-Preprocessing
-   ↓
-Feature Engineering
-   ↓
-Model Training
-   ↓
-Evaluation
-   ↓
-Hyperparameter Tuning
-   ↓
-Final Model
-   ↓
-Deployment
-```
+* Data preprocessing
+* Exploratory data analysis
+* Feature engineering
+* Statistical analysis
+* Data visualization
+* Machine Learning
+* Model evaluation
+* Model selection
+* Hyperparameter tuning
+* Problem solving
+* Experimentation
+* Building reproducible ML workflows
 
 ---
 
-# 🚀 Future Direction
+# 🚀 Future Goals
 
-As my Machine Learning foundation becomes stronger, this repository will evolve toward:
+After completing the core Machine Learning foundations, the roadmap will expand toward:
 
 * Advanced Machine Learning
 * Deep Learning
+* Neural Networks
 * Generative AI
-* Practical AI/ML applications
-* End-to-end ML systems
+* AI/ML applications
+* End-to-end Machine Learning systems
 * Model deployment
-* APIs
+* APIs for ML models
 * Interactive ML applications
 
 ---
 
 # 📚 Learning Reference
 
-The overall learning sequence is inspired by the **CampusX 100 Days of Machine Learning** curriculum.
+The learning sequence and topic progression are inspired by the **CampusX 100 Days of Machine Learning** curriculum.
 
-The purpose of this repository is to document **my own learning, implementation, experiments, debugging, and projects** while following that learning path.
+The repository is maintained as my personal **learning, implementation, experimentation, and project portfolio**.
 
 ---
 
 # 👩‍💻 About Me
 
-I am an **AI/ML student** focused on building practical skills in Machine Learning and Artificial Intelligence.
+I am an **AI/ML student** building practical skills in Machine Learning and Artificial Intelligence.
 
-I am using this repository to document the journey from learning fundamental concepts to building **real-world AI/ML systems**.
+This repository represents my ongoing journey of learning Machine Learning concepts, implementing them through hands-on practice, and gradually applying them to real-world problems.
 
-> **Learn → Build → Experiment → Improve**
+### Current Focus
+
+**Machine Learning → Data Preprocessing → Model Building → Practical Projects**
 
 ---
 
-⭐ This repository will continue to evolve as I progress through my Machine Learning journey.
+## ⭐ Journey
+
+```text
+Learn → Implement → Experiment → Build → Improve
+```
+
+This repository will continue to evolve as I progress through my Machine Learning journey.
